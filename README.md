@@ -4,7 +4,7 @@ A repository for the Module 8 Challenge - creating an app that allows users to s
 
 # Installation
 
-GitHub Pages:
+GitHub Pages: https://dija-64.github.io/Challenge-8-Weather-Dashboard/ 
 
 ![Alt text](<Screenshot (1664).png>)
 
