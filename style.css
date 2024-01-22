@@ -1,10 +1,10 @@
 body {
-    background-color: #86d2c2;
+    background-color: #3846ad;
     font-family: 'Arial', sans-serif;
 }
 
 .jumbotron {
-    background-color: #5ba494;
+    background-color: #1c277a;
     color: white;
 }
 
@@ -13,26 +13,26 @@ body {
 }
 
 .bg-light {
-    background-color: #86d2c2;
+    background-color: #3846ad;
 }
 
 .btn-primary {
-    background-color: #5ba494;
-    border-color: #5ba494;
+    background-color: #2c378e;
+    border-color: #2c378e;
 }
 
 .btn-primary:hover {
-    background-color: #458174;
-    border-color: #458174;
+    background-color: #242f80;
+    border-color: #242f80;
 }
 
 .btn.bg-primary {
-    background-color: #5ba494;
+    background-color: #3846ad;
     color: white;
 }
 
 .btn.bg-primary:hover {
-    background-color: #458174;
+    background-color: #242f80;
     color: white;
 }
 
@@ -41,7 +41,7 @@ body {
 }
 
 .border-dark {
-    border-color: #343a40;
+    border-color: #1c277a;
 }
 
 .rounded {
@@ -52,8 +52,12 @@ body {
     margin-top: 20px;
 }
 
+h3 {
+    color: white;
+}
+
 .city-name {
-    color: #458174;
+    color: #ffffff;
 }
 
 .current {
@@ -61,7 +65,7 @@ body {
 }
 
 .bg-danger {
-    background-color: #dc3545;
+    background-color: #458174;
 }
 
 .forecast {

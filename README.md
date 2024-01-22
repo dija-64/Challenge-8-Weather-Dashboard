@@ -3,10 +3,12 @@
 A repository for the Module 8 Challenge - creating an app that allows users to see the weather forecast for cities of their choosing.
 
 # Installation
+
 GitHub Pages:
 
+![Alt text](<Screenshot (1663).png>)
 # Usage
-To use, search for or select a city to find out what the current weather is. You can also see the 5-day forecast for the chosen city. The previous searches are saved in your local storage for easy access.
+To use, search for or select a city to find out what the current weather is. You can also see the 5-day forecast for the chosen city. The previous searches are saved in your local storage for easy access. To clear searches, click 'Clear history'.
 
 # Credits
 © 2024 edX Boot Camps LLC 
