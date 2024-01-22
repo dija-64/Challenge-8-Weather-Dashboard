@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.weather-header {
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    background: linear-gradient(to right, #1a7cdf, #011330)
+}
+
+.weather-header h1 {
+    font-size: 40px;
+    padding: 10px;
+}
+
+#mainSearch {
+    padding: 5px;
+    margin: 5px;
+}
+
+#mainSearch h2 {
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.weather-search {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#search-button {
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    background-color: #007bff;
+    width: 10%;
+}
+
+#currentDay {
+    padding: 5px;
+    margin: 5px;
+}
+
+#currentDay p {
+    padding: 5px;
+    margin: 5px;
+}
+
+#fiveDayFore {
+    padding: 5px;
+    margin: 5px;
+}
+
+#fiveDayFore p {
+    padding: 5px;
+    margin: 5px;
+}
