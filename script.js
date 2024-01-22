@@ -39,8 +39,8 @@ function currentWeather(city) {
 
         currentCity.html(`${response.name} (${date}) <img src="${iconurl}">`);
 
-        const tempF = ((response.main.temp - 273.15) * 1.80 + 32).toFixed(2);
-        cityTemp.html(`${tempF} &#8457`);
+        const tempC = response.main.temp - 273.15;
+        cityTemp.html(`${tempC.toFixed(1)} &#8451`);
 
         cityHumid.html(`${response.main.humidity}%`);
 
@@ -59,6 +59,17 @@ function currentWeather(city) {
                 addToList(city);
             }
         }
+    });
+}
+
+function UVIndex(ln, lt) {
+    const uvqURL = `https://api.openweathermap.org/data/2.5/uvi?appid=${APIKey}&lat=${lt}&lon=${ln}`;
+
+    $.ajax({
+        url: uvqURL,
+        method: "GET"
+    }).then(function (response) {
+        cityUV.html(response.value);
     });
 }
 

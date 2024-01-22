@@ -11,10 +11,11 @@ To use, search for or select a city to find out what the current weather is. You
 # Credits
 © 2024 edX Boot Camps LLC 
 OpenWeather API
-Stackoverflow
-w3Schools
+Bootstrap
+Font Awesome
+Stackoverflow & w3Schools for ES6 syntax
 MDN Web Docs
-Chat GPT for Javascript code debugging, especially syntax
+Chat GPT for Javascript code debugging
 
 # License
 Please refer to the LICENSE.txt - MIT LICENSE
